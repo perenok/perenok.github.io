@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: 이동환
-  tagline: Backend Developer
+  tagline: 주니어 백엔드 개발자
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
