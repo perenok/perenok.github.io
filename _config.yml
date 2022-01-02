@@ -20,7 +20,7 @@ title                    : "크로플 기술 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "이동환"
-description              : "경험을 담아, 상세하게."
+description              : "경험을 담아, 상세하게"
 url                      : "https://perenok.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "이동환"
   avatar           : "/assets/image/portfolio.png"
-  bio              : "경험을 담아, 상세하게."
+  bio              : "경험을 담아, 상세하게"
   location         : "Seoul/South Korea"
   email            : "perneoke@gmail.com"
   links:
