@@ -3,6 +3,8 @@ title: "Atomic Type"
 date: 2022-01-02
 tags:
     - Java
+    - Atomic Type
+    - Multi Thread
 toc: true
 toc_sticky: true
 toc_label: "Atomic Type"
@@ -56,7 +58,7 @@ toc_label: "Atomic Type"
                     value = newValue;
                     return true;
                 }
-        				return false;
+                return false;
             }
         }
         ```
