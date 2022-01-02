@@ -158,7 +158,7 @@ public class SimpleLock {
 
 멀티 스레드 환경에서 원자성을 지키고 싶을 때 Atomic Type을 활용해보는 것도 좋은 방법이 될 거라고 생각한다.
 
-### 참고
+## 참고
 
 [https://zion830.tistory.com/58](https://zion830.tistory.com/58)
 
