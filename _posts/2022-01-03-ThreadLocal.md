@@ -25,7 +25,8 @@ toc_label: "ThreadLocal"
 
 ![스크린샷 2022-01-03 오후 3.12.07.png](/assets/image/threadlocal/threadlocal2.png)
 
-쓰레드A에서 userA로 저장한 데이터가 도중에 변경되었다. 이렇게 일반 변수 필드에 여러 쓰레드가 동시에 접근하여 상태를 변경시키면 동시성 문제가 일어나게 된다.
+쓰레드A에서 userA로 저장한 데이터가 도중에 변경되었다. 
+ 이렇게 일반 변수 필드에 여러 쓰레드가 동시에 접근하여 상태를 변경시키면 동시성 문제가 일어나게 된다.
 
 ### 쓰레드로컬
 
@@ -121,7 +122,7 @@ threadA를 실행한 후 0.1초의 대기시간이 지나고 threadB를 시작�
 그 후 조회를 하게 되면 각각 본인이 저장한 값을 조회하는 것을 확인 할 수 있다.
 
 그렇다면 ThreadLocal을 사용하지 않으면 어떻게 결과가 나올까?
-ThreadLocalService에 필드에 ThreadLocal<String> 대신에 그냥 String으로 변경하고 테스트를 돌려보자.
+ThreadLocalService 필드에 ThreadLocal<String> 대신에 그냥 String으로 변경하고 테스트를 돌려보자.
 
 ![Untitled](/assets/image/threadlocal/threadlocal7.png)
 
