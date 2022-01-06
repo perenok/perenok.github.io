@@ -9,7 +9,6 @@ toc_sticky: true
 toc_label: "ThreadLocal"
 ---
 
-> 이 내용은 인프런의 김영한님 강의 "스프링 핵심 원리 - 고급편" 을 시청하고 정리한 글입니다.
 
 
 ## 쓰레드로컬(ThreadLocal)이란?
@@ -129,3 +128,5 @@ ThreadLocalService 필드에 ThreadLocal<String> 대신에 그냥 String으로 �
 thread-A에서 userA라는 값을 조회하길 기대하는데 thread-B에 의해 도중에 userB로 변경되었다.
 그로 인해 두 쓰레드 모두 userB를 조회하게 되었다.
 이를 방지하기 위해 ThreadLocal을 사용하는 것이다.
+
+> 이 내용은 인프런의 김영한님 강의 "스프링 핵심 원리 - 고급편" 을 시청하고 정리한 글입니다.
