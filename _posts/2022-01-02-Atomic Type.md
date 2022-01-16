@@ -51,7 +51,7 @@ toc_label: "Atomic Type"
         ```java
         public class AtomicExample {
             
-        		int value;
+        	private int value;
             
             public boolean compareAndSwap(int oldValue, int newValue) {
                 if(value == oldValue) {
